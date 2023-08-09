@@ -1,0 +1,16 @@
+//4. Write a program to swap values of two int variables without using a third variable.
+
+int main()
+{
+    int a,b,temp=0;
+    printf("Enter the numbers:");
+    scanf("%d%d",&a,&b);
+    temp=a+b;
+    a=temp-a;
+    b=temp-b;
+    printf("After swapping the value of a %d",a);
+    printf("\n");
+    printf("After swapping the value of b %d",b);
+
+    return 0;
+}
