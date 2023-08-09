@@ -1,0 +1,14 @@
+//9. Write a program to print size of an int, a float, a char and a double type variable
+#include <stdio.h>
+
+int main()
+{
+    printf("size of is %d",sizeof(int));
+    printf("\n");
+    printf("size of is %d",sizeof(char));
+    printf("\n");
+    printf("size of is %d",sizeof(float));
+    printf("\n");
+    printf("size of is %d",sizeof(double));
+    return 0;
+}
